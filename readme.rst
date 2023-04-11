@@ -1,71 +1,25 @@
 ###################
-What is CodeIgniter
+E-Voting
 ###################
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+Aplikasi E-Voting ini adalah aplikasi yang saya siapkan untuk bisa digunakan di Sekolah - Sekolah Muhammadiyah dalam melakukan pemilihan Bakal Calon Wakil Kepala Sekolah dengan menggunakan Voting Online. 
 
-*******************
-Release Information
-*******************
+Konsep dasar APlikasi ini adalah Sekolah menetapkan calon - calon Wakil Kepala Sekolah dalam setiap bidang.
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+Guru / Pendidik sebagai pemilih di tetapkan oleh sekolah dan di masukkan di Aplikasi.
+Setiap Pemilih mempunyai hak untuk menempatkan 3 Calon pada setiap Bidang, urutan pemilihan akan menentukan Poin atau Score Calon, dengan perhitungan Urutan 1 (pertama kali di pilih pada setiap bidang akan mendapatkan poin 5, urutan 2 (urutan kedua di pilih pada setiap Bidang) akan mendapatkan poin 3, dan urutan ke 3 akan mendapatkan poin 1. 
 
-**************************
-Changelog and New Features
-**************************
+Untuk Instalasi :
+1. Siapkan webserver, dengan Apache, PHP, MySQL
+2. Import Database yang ada di folder db.
+3. Tempatkan master aplikasi pada web server yang sudah di tentukan.
+4. Udah dan sesuaikan dua file yang ada di :
+\application\config\config.php untuk seting host
+\application\config\database.php untuk seting koneksi ke database
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+Semoga Bermanfaat.
+Terimakasih
+m4ryanto@gmail.com
 
-*******************
-Server Requirements
-*******************
-
-PHP version 5.6 or newer is recommended.
-
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
-
-************
-Installation
-************
-
-Please see the `installation section <https://codeigniter.com/userguide3/installation/index.html>`_
-of the CodeIgniter User Guide.
-
-*******
-License
-*******
-
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
-
-*********
-Resources
-*********
-
--  `User Guide <https://codeigniter.com/docs>`_
--  `Contributing Guide <https://github.com/bcit-ci/CodeIgniter/blob/develop/contributing.md>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
-
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
-
-***************
-Acknowledgement
-***************
-
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+PANDUAN PENGGUNAAN 
+Video panduan penggunaan dan review aplikasi bisa di akses di https://youtu.be/AVByZsUKZNI
